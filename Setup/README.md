@@ -1,6 +1,8 @@
-#Instalacion de dotnet 2.2
+# Markdown en Github
 
-##Desde windows
+## Instalacion de dotnet 2.2
+
+### Desde windows
     1. Poner en el buscador utilizado dotnet
     2. Entrar a la pagina https://dotnet.microsoft.com/download
     3. Descargar la opcion de dotnet 2.2 SDK
@@ -8,9 +10,9 @@
     5. Seguir las instrucciones de instalacion marcando opcion de agregar al path
     6. Verificar instalacion en cmd o powershell con el comando dotnet
 
-#Instalacion de visual studio code
+## Instalacion de visual studio code
  
-##Desde windows
+### Desde windows
     1. Poner en el buscador visual studio code
     2. Entrar a la pagina https://code.visualstudio.com/
     3. Dar click donde dice instalar para windows
@@ -18,7 +20,7 @@
     5. Seguir instrucciones de instalacion agregando code a el path
     6. Verificar su instalacion en cmd o powershell con el comando code .
 
-#Instalacion de git. conectado a la cuenta de github y VSC
+## Instalacion de git. conectado a la cuenta de github y VSC
 
     1. Descargar git y ejecutar siguiendo indicaciones de programa
     2. Para conectar git se debe de usar los repositorios remotos con los comandos que se nos
