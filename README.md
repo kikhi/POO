@@ -1,10 +1,10 @@
-# Instituto tecnologico de Tijuana
+# Instituto Tecnologico de Tijuana
 
-Cesar Andres Trujillo Garay
+### Cesar Andres Trujillo Garay
 
-Programacion orientada a objetos
+### Programacion orientada a objetos
 
-Ingenieria en sistemas computacionales
+### Ingenieria en sistemas computacionales
 
 # Indice
     1. Markdown en Github 
