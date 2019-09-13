@@ -17,4 +17,8 @@ Ingenieria en sistemas computacionales
     3. Lista de Películas
 
 
+<<<<<<< HEAD
     4. Actores 
+=======
+    4. Actores 
+>>>>>>> 706c051224c0131189fc00897ee7f46711bb295f
