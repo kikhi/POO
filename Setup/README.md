@@ -11,7 +11,7 @@
 3. Descargar la opcion de dotnet 2.2 
 4. Ejecutar el programa
 
-![Imagen sacada de internet, https://wiki.gtanet.work/index.php?title=Porting_an_existing_project_to_.NET_Core_2.0](../Imagenes/Dotnet3.JPG)
+![Imagen sacada de internet, wiki.gtnet](../Imagenes/Dotnet3.JPG)
 
 5. Seguir las instrucciones de instalacion marcando opcion de agregar al path
 6. Verificar instalacion en cmd o powershell con el comando dotnet
