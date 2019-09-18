@@ -14,7 +14,7 @@
     5. Seguir las instrucciones de instalacion marcando opcion de agregar al path
     6. Verificar instalacion en cmd o powershell con el comando dotnet
 
-    ![](.../Imagenes/Github2)
+    ![](../Imagenes/Github2)
 
 ## Instalacion de visual studio code
  
