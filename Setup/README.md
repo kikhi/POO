@@ -6,7 +6,7 @@
     1. Poner en el buscador utilizado dotnet
     2. Entrar a la pagina https://dotnet.microsoft.com/download
 
-    ![](POO/Imagenes/Github1)
+    ![](Imagenes/Github1)
 
 
     3. Descargar la opcion de dotnet 2.2 SDK
