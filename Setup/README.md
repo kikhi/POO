@@ -24,7 +24,7 @@
 1. Poner en el buscador visual studio code
 2. Entrar a la pagina de [Microsoft](https://code.visualstudio.com/)
 
-![](../Imagenes/Code1.JPG)
+![](../Imagenes/Code.JPG)
 
 3. Dar click donde dice instalar para windows
 4. Ejecutar el programa
