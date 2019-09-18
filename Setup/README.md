@@ -31,9 +31,9 @@
 5. Seguir instrucciones de instalacion agregando code a el path
 6. Verificar su instalacion en cmd o powershell con el comando code .
 
-![](../Imagenes/Code2.JPG)
+![](../Imagenes/Code1.JPG)
 
-![](../Imagenes/Code3.JPG)
+![](../Imagenes/Code2.JPG)
 
 ## Instalacion de git. conectado a la cuenta de github y VSC
 
