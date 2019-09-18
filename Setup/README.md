@@ -5,6 +5,10 @@
 ### Desde windows
     1. Poner en el buscador utilizado dotnet
     2. Entrar a la pagina https://dotnet.microsoft.com/download
+
+    ![](Capture.PNG)
+
+    
     3. Descargar la opcion de dotnet 2.2 SDK
     4. Ejecutar el programa
     5. Seguir las instrucciones de instalacion marcando opcion de agregar al path
