@@ -4,7 +4,7 @@
 
 ### Desde windows
 1. Poner en el buscador utilizado dotnet
-2. Entrar a la pagina [Microsoft](https://dotnet.microsoft.com/download)
+2. Entrar a la pagina [Microsoft Core](https://dotnet.microsoft.com/download)
 
 ![](../Imagenes/Dotnet1.JPG)
 
@@ -37,7 +37,7 @@
 
 ## Instalacion de git. conectado a la cuenta de github y VSC
 
-1. Descargar git y ejecutar siguiendo indicaciones de programa
+1. Descargar git y ejecutar siguiendo indicaciones de programa con la pagina de [Git](https://git-scm.com/)
 
 ![](../Imagenes/Github1.JPG)
 
@@ -46,3 +46,7 @@
     y podemos subir directamente losrepositorios a nuestro github.
 
 ![](../Imagenes/Github2.JPG)
+
+3. Para mas practica de herramienta se puede buscar los [dos manuales](https://git-scm.com/doc) que te regala la compañia
+
+![](../Imagenes/Git.JPG)
