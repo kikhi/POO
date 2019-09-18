@@ -6,7 +6,7 @@
     1. Poner en el buscador utilizado dotnet
     2. Entrar a la pagina https://dotnet.microsoft.com/download
 
-    ![](../imagenes/Github1)
+    ![](../Imagenes/Github1)
 
 
     3. Descargar la opcion de dotnet 2.2 SDK
@@ -14,7 +14,7 @@
     5. Seguir las instrucciones de instalacion marcando opcion de agregar al path
     6. Verificar instalacion en cmd o powershell con el comando dotnet
 
-    ![](../imagenes/Github2)
+    ![](../Imagenes/Github2)
 
 ## Instalacion de visual studio code
  
