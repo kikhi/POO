@@ -4,7 +4,7 @@
 
 ### Desde windows
 1. Poner en el buscador utilizado dotnet
-2. Entrar a la pagina https://dotnet.microsoft.com/download
+2. Entrar a la pagina [Microsoft](https://dotnet.microsoft.com/download)
 
 ![](../Imagenes/Dotnet1.JPG)
 
