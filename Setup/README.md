@@ -11,7 +11,7 @@
 3. Descargar la opcion de dotnet 2.2 
 4. Ejecutar el programa
 
-![](../Imagenes/Dotnet3.JPG)
+![](../Imagenes/Dotnet3.jpg)
 
 5. Seguir las instrucciones de instalacion marcando opcion de agregar al path
 6. Verificar instalacion en cmd o powershell con el comando dotnet
