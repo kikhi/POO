@@ -1,0 +1,4 @@
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_peliculas.csprojAssemblyReference.cache
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_peliculas.csproj.CoreCompileInputs.cache
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_peliculas.AssemblyInfoInputs.cache
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_peliculas.AssemblyInfo.cs
