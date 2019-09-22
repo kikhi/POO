@@ -7,6 +7,7 @@ namespace Lista_peliculas
     {
         static void Main(string[] args)
         {
+            
             List<string> peliculas =new List<string>();
                 peliculas.Add("IT");
                 peliculas.Add("Titanic");

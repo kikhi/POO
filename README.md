@@ -13,11 +13,11 @@
 
     2. Programa básico Películas
 
-[Ejercicio Markdown en Github](Programa_basico_peliculas/README.md)
+[Ejercicio basico peliculas](Programa_basico_peliculas/README.md)
 
     3. Lista de Películas
 
-[Ejercicio Markdown en Github](Lista_Peliculas/README.md)
+[Ejercicio listas de peliculas](Lista_Peliculas/README.md)
 
     4. Actores 
    
