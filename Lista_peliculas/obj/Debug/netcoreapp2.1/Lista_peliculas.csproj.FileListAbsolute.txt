@@ -2,3 +2,10 @@ C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_pelicul
 C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_peliculas.csproj.CoreCompileInputs.cache
 C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_peliculas.AssemblyInfoInputs.cache
 C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_peliculas.AssemblyInfo.cs
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\bin\Debug\netcoreapp2.1\Lista_peliculas.deps.json
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\bin\Debug\netcoreapp2.1\Lista_peliculas.runtimeconfig.json
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\bin\Debug\netcoreapp2.1\Lista_peliculas.runtimeconfig.dev.json
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\bin\Debug\netcoreapp2.1\Lista_peliculas.dll
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\bin\Debug\netcoreapp2.1\Lista_peliculas.pdb
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_peliculas.dll
+C:\Users\Cesar\Desktop\POO\Lista_peliculas\obj\Debug\netcoreapp2.1\Lista_peliculas.pdb

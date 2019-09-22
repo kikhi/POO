@@ -7,22 +7,17 @@ namespace Lista_peliculas
     {
         static void Main(string[] args)
         {
-            List<Pelicula> peliculas = new List<Pelicula>();
+            List<string> peliculas =new List<string>();
+                peliculas.Add("IT");
+                peliculas.Add("Titanic");
+                peliculas.Add("Los increibles");
+                peliculas.Add("La niebla");
+                peliculas.Add("Red social");
 
-            peliculas.Add(new Pelicula ("IT"));
-            peliculas.Add(new Pelicula ("Terror bajo la tierra"));
-            peliculas.Add(new Pelicula ("La niebla"));
-            peliculas.Add(new Pelicula ("Shrek"));
-            peliculas.Add(new Pelicula ("Los increibles"));
-
-            int count = 0;
-            foreach (string element in pelicula)
+            foreach(string Pelicula in peliculas)
             {
-                count++;
-                Console.WriteLine($"Element #{count}: {element}");
+                Console.WriteLine(Pelicula);
             }
-
-            //Console.WriteLine("Hello World!");
         }
     }
 }
