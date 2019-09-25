@@ -17,7 +17,7 @@
 
     3. Lista de Películas
 
-[Ejercicio listas de peliculas](Lista_Peliculas/README.md)
+[Ejercicio listas de peliculas](Lista_peliculas/README.md)
 
     4. Actores 
    
