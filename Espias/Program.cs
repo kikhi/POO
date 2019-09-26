@@ -25,7 +25,6 @@ namespace Espias
 		Console.WriteLine(espía.nombre);
 		anonimiza(espía);
 		Console.WriteLine(espía.nombre);
-
 	    }
     }
 }
