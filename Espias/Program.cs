@@ -2,6 +2,13 @@
 
 namespace Espias
 {
+    class Duplicador
+    {
+	public void duplica(int n) 
+    { 
+			n = n*2;
+	}
+    }
     class Persona
     {
 	    public string nombre;
