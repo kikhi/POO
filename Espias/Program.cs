@@ -27,4 +27,17 @@ namespace Espias
 		Console.WriteLine(espía.nombre);
 	    }
     }
+
+    class Program
+    {
+        static void Main()
+	    {
+		Duplicador d = new Duplicador();
+		int x = 2;
+		d.duplica(x);
+		Console.WriteLine(x);
+		d.duplica_ref(x);
+		Console.WriteLine(x);
+	    }
+    }
 }
