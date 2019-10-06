@@ -31,4 +31,4 @@
     6. GOL
 [Ejemplo del juego de la vida](Gol)
    
-## Unidad 2
+
