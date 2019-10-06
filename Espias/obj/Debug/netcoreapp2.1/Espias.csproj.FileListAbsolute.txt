@@ -1,0 +1,4 @@
+C:\Users\ITT\Documents\GitHub\POO\Espias\obj\Debug\netcoreapp2.1\Espias.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\Espias\obj\Debug\netcoreapp2.1\Espias.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Espias\obj\Debug\netcoreapp2.1\Espias.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Espias\obj\Debug\netcoreapp2.1\Espias.AssemblyInfo.cs
