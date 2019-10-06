@@ -6,7 +6,7 @@
 ### Programacion orientada a objetos
 
 ### Ingenieria en sistemas computacionales
-![Ingenieria en sistemas](https://s3-us-west-2.amazonaws.com/occ-mkt/blog/wp-content/uploads/2018/09/Ing_sistemas.jpg)
+![Ingenieria en sistemas](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjNsbOX3IblAhXBqp4KHVTKBKsQjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.occ.com.mx%252Fblog%252Fcarreras-ingenieria-en-sistemas%252F%26psig%3DAOvVaw3KnS0w9bAwioNAsiFo6IzI%26ust%3D1570419769985410&psig=AOvVaw3KnS0w9bAwioNAsiFo6IzI&ust=1570419769985410)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
