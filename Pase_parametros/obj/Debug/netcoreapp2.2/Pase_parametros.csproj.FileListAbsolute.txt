@@ -1,0 +1,11 @@
+C:\Users\Familiar\Desktop\POO\Pase_parametros\bin\Debug\netcoreapp2.2\Pase_parametros.deps.json
+C:\Users\Familiar\Desktop\POO\Pase_parametros\bin\Debug\netcoreapp2.2\Pase_parametros.runtimeconfig.json
+C:\Users\Familiar\Desktop\POO\Pase_parametros\bin\Debug\netcoreapp2.2\Pase_parametros.runtimeconfig.dev.json
+C:\Users\Familiar\Desktop\POO\Pase_parametros\bin\Debug\netcoreapp2.2\Pase_parametros.dll
+C:\Users\Familiar\Desktop\POO\Pase_parametros\bin\Debug\netcoreapp2.2\Pase_parametros.pdb
+C:\Users\Familiar\Desktop\POO\Pase_parametros\obj\Debug\netcoreapp2.2\Pase_parametros.csprojAssemblyReference.cache
+C:\Users\Familiar\Desktop\POO\Pase_parametros\obj\Debug\netcoreapp2.2\Pase_parametros.csproj.CoreCompileInputs.cache
+C:\Users\Familiar\Desktop\POO\Pase_parametros\obj\Debug\netcoreapp2.2\Pase_parametros.AssemblyInfoInputs.cache
+C:\Users\Familiar\Desktop\POO\Pase_parametros\obj\Debug\netcoreapp2.2\Pase_parametros.AssemblyInfo.cs
+C:\Users\Familiar\Desktop\POO\Pase_parametros\obj\Debug\netcoreapp2.2\Pase_parametros.dll
+C:\Users\Familiar\Desktop\POO\Pase_parametros\obj\Debug\netcoreapp2.2\Pase_parametros.pdb

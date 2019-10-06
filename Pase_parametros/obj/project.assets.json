@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Familiar\\desktop\\POO\\Programa_basico_peliculas\\Programa_basico_peliculas.csproj",
-      "projectName": "Programa_basico_peliculas",
-      "projectPath": "C:\\Users\\Familiar\\desktop\\POO\\Programa_basico_peliculas\\Programa_basico_peliculas.csproj",
+      "projectUniqueName": "C:\\Users\\Familiar\\Desktop\\POO\\Pase_parametros\\Pase_parametros.csproj",
+      "projectName": "Pase_parametros",
+      "projectPath": "C:\\Users\\Familiar\\Desktop\\POO\\Pase_parametros\\Pase_parametros.csproj",
       "packagesPath": "C:\\Users\\Familiar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Familiar\\desktop\\POO\\Programa_basico_peliculas\\obj\\",
+      "outputPath": "C:\\Users\\Familiar\\Desktop\\POO\\Pase_parametros\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

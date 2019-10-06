@@ -6,6 +6,8 @@
 
 ### Ingenieria en sistemas computacionales
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
 # Indice
     1. Markdown en Github 
     
@@ -13,11 +15,17 @@
 
     2. Programa básico Películas
 
-[Ejercicio basico peliculas](Programa_basico_peliculas/README.md)
+[Ejercicio basico peliculas](Programa_basico_peliculas)
 
     3. Lista de Películas
 
-[Ejercicio listas de peliculas](Lista_peliculas/README.md)
+[Ejercicio listas de peliculas](Lista_peliculas)
 
     4. Actores 
+
+    5. Pase de parametros
+[Ejercicio de pase de parametros](Pase_parametros)
+
+    6. GOL
+[Ejemplo del juego de la vida](Gol)
    

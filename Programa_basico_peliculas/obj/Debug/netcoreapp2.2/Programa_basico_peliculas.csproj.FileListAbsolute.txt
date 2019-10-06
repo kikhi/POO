@@ -2,3 +2,7 @@ C:\Users\Familiar\desktop\POO\Ejercicios\Programa_basico_peliculas\obj\Debug\net
 C:\Users\Familiar\desktop\POO\Ejercicios\Programa_basico_peliculas\obj\Debug\netcoreapp2.2\Programa_basico_peliculas.csproj.CoreCompileInputs.cache
 C:\Users\Familiar\desktop\POO\Ejercicios\Programa_basico_peliculas\obj\Debug\netcoreapp2.2\Programa_basico_peliculas.AssemblyInfoInputs.cache
 C:\Users\Familiar\desktop\POO\Ejercicios\Programa_basico_peliculas\obj\Debug\netcoreapp2.2\Programa_basico_peliculas.AssemblyInfo.cs
+C:\Users\Familiar\desktop\POO\Programa_basico_peliculas\obj\Debug\netcoreapp2.2\Programa_basico_peliculas.csprojAssemblyReference.cache
+C:\Users\Familiar\desktop\POO\Programa_basico_peliculas\obj\Debug\netcoreapp2.2\Programa_basico_peliculas.csproj.CoreCompileInputs.cache
+C:\Users\Familiar\desktop\POO\Programa_basico_peliculas\obj\Debug\netcoreapp2.2\Programa_basico_peliculas.AssemblyInfoInputs.cache
+C:\Users\Familiar\desktop\POO\Programa_basico_peliculas\obj\Debug\netcoreapp2.2\Programa_basico_peliculas.AssemblyInfo.cs

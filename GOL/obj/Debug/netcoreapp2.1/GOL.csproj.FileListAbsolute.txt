@@ -1,0 +1,11 @@
+C:\Users\ITT\Desktop\GOL\obj\Debug\netcoreapp2.1\GOL.csprojAssemblyReference.cache
+C:\Users\ITT\Desktop\GOL\obj\Debug\netcoreapp2.1\GOL.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Desktop\GOL\obj\Debug\netcoreapp2.1\GOL.AssemblyInfoInputs.cache
+C:\Users\ITT\Desktop\GOL\obj\Debug\netcoreapp2.1\GOL.AssemblyInfo.cs
+C:\Users\ITT\Desktop\GOL\bin\Debug\netcoreapp2.1\GOL.deps.json
+C:\Users\ITT\Desktop\GOL\bin\Debug\netcoreapp2.1\GOL.runtimeconfig.json
+C:\Users\ITT\Desktop\GOL\bin\Debug\netcoreapp2.1\GOL.runtimeconfig.dev.json
+C:\Users\ITT\Desktop\GOL\bin\Debug\netcoreapp2.1\GOL.dll
+C:\Users\ITT\Desktop\GOL\bin\Debug\netcoreapp2.1\GOL.pdb
+C:\Users\ITT\Desktop\GOL\obj\Debug\netcoreapp2.1\GOL.dll
+C:\Users\ITT\Desktop\GOL\obj\Debug\netcoreapp2.1\GOL.pdb
