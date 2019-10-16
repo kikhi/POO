@@ -30,7 +30,19 @@
     5. Pase de parametros
 [Ejercicio de pase de parametros](Pase_parametros)
 
+    Ejemplo contador
+[Contador](Ejemplo)
+
     6. GOL
 [Ejemplo del juego de la vida](Gol)
+
+    7. Dominio
+[Ejercicio de dominio](Dominio)
+
+    8. Herencia
+[Ejercicio de erencia](Herencia)
+
+    9. Musico
+[Ejercicio musico](Musico)
    
 
