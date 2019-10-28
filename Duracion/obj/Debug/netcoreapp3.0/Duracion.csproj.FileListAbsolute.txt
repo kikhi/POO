@@ -1,0 +1,11 @@
+C:\Users\Familiar\Desktop\POO\Duracion\obj\Debug\netcoreapp3.0\Duracion.csprojAssemblyReference.cache
+C:\Users\Familiar\Desktop\POO\Duracion\obj\Debug\netcoreapp3.0\Duracion.AssemblyInfoInputs.cache
+C:\Users\Familiar\Desktop\POO\Duracion\obj\Debug\netcoreapp3.0\Duracion.AssemblyInfo.cs
+C:\Users\Familiar\Desktop\POO\Duracion\bin\Debug\netcoreapp3.0\Duracion.exe
+C:\Users\Familiar\Desktop\POO\Duracion\bin\Debug\netcoreapp3.0\Duracion.deps.json
+C:\Users\Familiar\Desktop\POO\Duracion\bin\Debug\netcoreapp3.0\Duracion.runtimeconfig.json
+C:\Users\Familiar\Desktop\POO\Duracion\bin\Debug\netcoreapp3.0\Duracion.runtimeconfig.dev.json
+C:\Users\Familiar\Desktop\POO\Duracion\bin\Debug\netcoreapp3.0\Duracion.dll
+C:\Users\Familiar\Desktop\POO\Duracion\bin\Debug\netcoreapp3.0\Duracion.pdb
+C:\Users\Familiar\Desktop\POO\Duracion\obj\Debug\netcoreapp3.0\Duracion.dll
+C:\Users\Familiar\Desktop\POO\Duracion\obj\Debug\netcoreapp3.0\Duracion.pdb

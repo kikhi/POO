@@ -8,15 +8,15 @@ namespace Duracion
         private string minutos;
         private string segundos;
 
-        public string horas{
+        public string Horas{
             get{ return horas; }
             set{ this.horas = horas; }
         }
-        public string minutos{
+        public string Minutos{
             get{ return minutos; }
             set{ this.minutos = minutos; }
         }
-        public string segundos{
+        public string Segundos{
             get{ return segundos; }
             set{ this.segundos = segundos; }
         }
@@ -25,7 +25,13 @@ namespace Duracion
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Duracion D = new Duracion();
+            D.Horas = "3";
+            D.Minutos = "26";
+            D.Segundos = "4";
+
+            Console.WriteLine("{0} : {1} : {2}", D.Segundos, D.Minutos, D.Horas);
+
         }
     }
 }
