@@ -1,0 +1,11 @@
+E:\FaceColon\bin\Debug\netcoreapp2.1\FaceColon.deps.json
+E:\FaceColon\bin\Debug\netcoreapp2.1\FaceColon.runtimeconfig.json
+E:\FaceColon\bin\Debug\netcoreapp2.1\FaceColon.runtimeconfig.dev.json
+E:\FaceColon\bin\Debug\netcoreapp2.1\FaceColon.dll
+E:\FaceColon\bin\Debug\netcoreapp2.1\FaceColon.pdb
+E:\FaceColon\obj\Debug\netcoreapp2.1\FaceColon.csprojAssemblyReference.cache
+E:\FaceColon\obj\Debug\netcoreapp2.1\FaceColon.csproj.CoreCompileInputs.cache
+E:\FaceColon\obj\Debug\netcoreapp2.1\FaceColon.AssemblyInfoInputs.cache
+E:\FaceColon\obj\Debug\netcoreapp2.1\FaceColon.AssemblyInfo.cs
+E:\FaceColon\obj\Debug\netcoreapp2.1\FaceColon.dll
+E:\FaceColon\obj\Debug\netcoreapp2.1\FaceColon.pdb
