@@ -39,6 +39,9 @@
     7. Dominio
 [Ejercicio de dominio](Dominio)
 
+    8. Duracion
+[Ejercicio duracion](Duracion)
+
     8. Herencia
 [Ejercicio de erencia](Herencia)
 
@@ -51,4 +54,7 @@
     11. FaceClon
 [Ejercicio del clon de facebook](FaceColon)
    
-    12.
+    12. Alumnos
+[Tarea alumnos](Alumnos)
+
+    13. 
