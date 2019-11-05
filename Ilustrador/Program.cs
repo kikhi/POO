@@ -27,7 +27,7 @@ namespace Ilustrador
             get {return color;}
             set {this.color = color;}
         }
-    }
+    
 
         public void dibuja()
         {
@@ -66,7 +66,8 @@ namespace Ilustrador
             }    
             Circulo r = new Circulo(10,10,"rojo");   
             r.dibuja();
-            }
         }
+    }
+}
     
 
