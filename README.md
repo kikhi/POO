@@ -57,4 +57,5 @@
     12. Alumnos
 [Tarea alumnos](Alumnos)
 
-    13. 
+    13. Ilustrador
+[Tarea Ilustrador](Ilustrador)
