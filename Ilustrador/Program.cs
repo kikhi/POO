@@ -48,7 +48,7 @@ namespace Ilustrador
         }
     }
 
-    class Rect : Figura {
+     abstract class Rect : Figura {
         public Rect(int x, int y, string c):base(x , y, c){
             }
         }
@@ -68,5 +68,5 @@ namespace Ilustrador
             r.dibuja();
             }
         }
-    }
-}
+    
+
