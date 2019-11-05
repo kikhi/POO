@@ -2,20 +2,36 @@
 
 namespace Ilustrador
 {
-    class Figura 
+    abstract class Figura 
     {
         protected int x;
         protected int y;
         protected string color;
 
-        public Figura(int x, int y, string c){
+        /*public Figura(int x, int y, string c){
             this.x = x; this.y = y; color = c;
+        }*/
+
+        public int X 
+        {
+            get {return x;}
+            set {this.x = x;}
         }
+        public int Y
+        {
+            get {return y;}
+            set {this.y = y;}
+        }
+        public string Color 
+        {
+            get {return color;}
+            set {this.color = color;}
+        }
+    }
 
         public void dibuja()
         {
-            Console.WriteLine("Se dibuja una figura color {0}", 
-            color);
+            Console.WriteLine("Se dibuja una figura color {0}", color);
         }
 
         public void printColor() {
