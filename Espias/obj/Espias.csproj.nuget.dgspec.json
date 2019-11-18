@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\Lista_peliculas.csproj": {}
+    "c:\\Users\\Familiar\\Desktop\\POO\\Espias\\Espias.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\Lista_peliculas.csproj": {
+    "c:\\Users\\Familiar\\Desktop\\POO\\Espias\\Espias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\Lista_peliculas.csproj",
-        "projectName": "Lista_peliculas",
-        "projectPath": "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\Lista_peliculas.csproj",
+        "projectUniqueName": "c:\\Users\\Familiar\\Desktop\\POO\\Espias\\Espias.csproj",
+        "projectName": "Espias",
+        "projectPath": "c:\\Users\\Familiar\\Desktop\\POO\\Espias\\Espias.csproj",
         "packagesPath": "C:\\Users\\Familiar\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\obj\\",
+        "outputPath": "c:\\Users\\Familiar\\Desktop\\POO\\Espias\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

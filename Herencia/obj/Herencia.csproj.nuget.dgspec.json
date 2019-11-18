@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\Lista_peliculas.csproj": {}
+    "c:\\Users\\Familiar\\Desktop\\POO\\Herencia\\Herencia.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\Lista_peliculas.csproj": {
+    "c:\\Users\\Familiar\\Desktop\\POO\\Herencia\\Herencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\Lista_peliculas.csproj",
-        "projectName": "Lista_peliculas",
-        "projectPath": "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\Lista_peliculas.csproj",
+        "projectUniqueName": "c:\\Users\\Familiar\\Desktop\\POO\\Herencia\\Herencia.csproj",
+        "projectName": "Herencia",
+        "projectPath": "c:\\Users\\Familiar\\Desktop\\POO\\Herencia\\Herencia.csproj",
         "packagesPath": "C:\\Users\\Familiar\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Familiar\\Desktop\\POO\\Lista_peliculas\\obj\\",
+        "outputPath": "c:\\Users\\Familiar\\Desktop\\POO\\Herencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

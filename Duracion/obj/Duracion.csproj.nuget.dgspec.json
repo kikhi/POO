@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Familiar\\Desktop\\POO\\Duracion\\Duracion.csproj": {}
+    "c:\\Users\\Familiar\\Desktop\\POO\\Duracion\\Duracion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Familiar\\Desktop\\POO\\Duracion\\Duracion.csproj": {
+    "c:\\Users\\Familiar\\Desktop\\POO\\Duracion\\Duracion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Familiar\\Desktop\\POO\\Duracion\\Duracion.csproj",
+        "projectUniqueName": "c:\\Users\\Familiar\\Desktop\\POO\\Duracion\\Duracion.csproj",
         "projectName": "Duracion",
-        "projectPath": "C:\\Users\\Familiar\\Desktop\\POO\\Duracion\\Duracion.csproj",
+        "projectPath": "c:\\Users\\Familiar\\Desktop\\POO\\Duracion\\Duracion.csproj",
         "packagesPath": "C:\\Users\\Familiar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Familiar\\Desktop\\POO\\Duracion\\obj\\",
+        "outputPath": "c:\\Users\\Familiar\\Desktop\\POO\\Duracion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
