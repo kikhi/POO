@@ -1,0 +1,3 @@
+C:\Users\Familiar\Desktop\POO\stack\obj\Debug\netcoreapp3.0\stack.csprojAssemblyReference.cache
+C:\Users\Familiar\Desktop\POO\stack\obj\Debug\netcoreapp3.0\stack.AssemblyInfoInputs.cache
+C:\Users\Familiar\Desktop\POO\stack\obj\Debug\netcoreapp3.0\stack.AssemblyInfo.cs
