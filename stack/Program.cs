@@ -15,6 +15,11 @@ namespace stack
             maximo = size;
             elementos = new T[maximo];
         }
+         public void Push(T elemento)
+        {
+            elementos[apuntador] = elemento;
+            apuntador++;
+        }    
     }
 
     class Program
