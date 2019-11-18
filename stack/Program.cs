@@ -10,18 +10,16 @@ namespace stack
 
         public Stack():this(100){}
 
-        public Stack(int size)
-        {
+        public Stack(int size){
             maximo = size;
             elementos = new T[maximo];
         }
-        public void Push(T elemento)
-        {
+        
+        public void Push(T elemento){
             elementos[apuntador] = elemento;
             apuntador++;
         }    
-        public T Pop()
-        {
+        public T Pop(){
             apuntador--;
             return elementos[apuntador];
         }
