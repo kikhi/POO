@@ -24,6 +24,8 @@ namespace Proyecto
         static void Main(string[] args)
         {
             List<Producto> productos = new List<Producto>();
+
+            FileStream fs = new FileStream();
         }
     }
 }
