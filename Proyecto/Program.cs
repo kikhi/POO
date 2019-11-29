@@ -15,9 +15,52 @@ namespace Proyecto
         public Producto(string c, string d, double p, string m, int l){
             codigo = c; descripcion = d; precio = p; departamento = m; likes = l;
         }
+
+        
     }
     class productoDB
     {
+        
+        public static void EscribeProductosTXT(string archivo,List<Producto> productos)
+        {
+            FileStream fs = new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
+            StreamWriter txtOut = new StreamWriter(fs);
+
+            foreach(Producto p in productos){
+                txtOut.Write(p.descripcion + " ");
+                txtOut.Write(p.precio + " ");
+                txtOut.Write(p.codigo + " ");
+                txtOut.Write(p.departamento + " ");
+                txtOut.WriteLine(p.likes);
+            }
+            txtOut.Close();
+        }
+
+        /*public static List<Producto> LeeProductosTXT(string archivo)
+        {
+            List<Producto> productos =new List<Producto>();
+            FileStream fs=new FileStream(archivo,FileMode.Open,FileAccess.Read);
+
+            using (StreamReader sr = new StreamReader(archivo)) 
+            {
+                string codigo;
+                string descripcion;
+                double precio;
+                string departamento;
+                int likes;
+                while ((line = sr.ReadLine()) != null) 
+                {
+                    Console.WriteLine(codigo);
+                    Console.WriteLine(descripcion);
+                    Console.WriteLine(precio);
+                    Console.WriteLine(departamento);
+                    Console.WriteLine(likes);
+                }
+            }
+        
+        }*/
+
+        
 
     }
     class Program
@@ -30,7 +73,9 @@ namespace Proyecto
             productos.Add(new Producto("Edf51", "Laptop con pantalla LCD", 22200.23d, "Computacion", 68));
             productos.Add(new Producto("Psda9", "Multimetro", 500.36d, "Electricidad", 2));
 
-            FileStream fs = new FileStream(@"ProductTXT.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            productoDB.EscribeProductosTXT(@"productos.txt",productos);
+
+            /*FileStream fs = new FileStream(@"ProductTXT.txt", FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter txtOut = new StreamWriter(fs);
 
             foreach(Producto p in productos){
@@ -40,7 +85,7 @@ namespace Proyecto
                 txtOut.Write(p.departamento + " ");
                 txtOut.WriteLine(p.likes);
             }
-            txtOut.Close();
+            txtOut.Close();*/
 
             using (FileStream stream = new FileStream(@"ProductBin.txt", FileMode.Create))
             {
@@ -52,7 +97,7 @@ namespace Proyecto
                 }
             }
             
-            Console.ReadLine();
+            
         }
     }
 }
