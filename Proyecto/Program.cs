@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
 namespace Proyecto
 {
@@ -15,7 +16,9 @@ namespace Proyecto
         public Producto(string c, string d, double p, string m, int l){
             codigo = c; descripcion = d; precio = p; departamento = m; likes = l;
         }
-
+        public Producto()
+        {
+        }
         
     }
     class productoDB
@@ -39,7 +42,7 @@ namespace Proyecto
         public static void EscribeProductosBIN(string archivo, List<Producto> productos)
         {
             FileStream fs=new FileStream(archivo,FileMode.OpenOrCreate,FileAccess.Write);
-            BinaryWriter binOut=new BinaryWriter(fs);
+            BinaryWriter binOut = new BinaryWriter(fs);
             foreach(Producto p in productos)
             {
                 binOut.Write(p.descripcion + " ");
@@ -49,6 +52,38 @@ namespace Proyecto
                 binOut.Write(p.likes);
             }
             binOut.Close();
+
+            /*FileStream xd = new FileStream(archivo, FileMode.Open, FileAccess.Read);
+
+            using(StreamReader sd = new StreamReader(archivo))
+            {
+                string s;
+                do{
+                    s = sd.ReadLine();
+                    Console.WriteLine(s);
+
+                }while(s != null);
+            }*/
+        
+        }
+    
+
+        public static string GetDepartamento(string archivo)
+        {
+            
+            List<Producto> productos =new List<Producto>();
+            FileStream fs = new FileStream(archivo,FileMode.Open,FileAccess.Read);
+
+            using(StreamReader sr = new StreamReader(archivo))
+            {
+                string s;
+                do{
+                    s = sr.ReadLine();
+                    Console.WriteLine(s);
+
+                }while(s != null);
+            }
+            return archivo;
         }
     }
     class Program
@@ -63,30 +98,18 @@ namespace Proyecto
 
             productoDB.EscribeProductosTXT(@"productos.txt", productos);
             productoDB.EscribeProductosBIN(@"productos.bin", productos);
-
-            /*FileStream fs = new FileStream(@"ProductTXT.txt", FileMode.OpenOrCreate, FileAccess.Write);
-            StreamWriter txtOut = new StreamWriter(fs);
-
-            foreach(Producto p in productos){
-                txtOut.Write(p.descripcion + " ");
-                txtOut.Write(p.precio + " ");
-                txtOut.Write(p.codigo + " ");
-                txtOut.Write(p.departamento + " ");
-                txtOut.WriteLine(p.likes);
-            }
-            txtOut.Close();*/
-
-            /*using (FileStream stream = new FileStream(@"ProductBin.txt", FileMode.Create))
-            {
-                using (BinaryWriter writer = new BinaryWriter(stream))
+            productoDB.GetDepartamento(@"productos.bin");
+            
+            /*List<Producto> producto_departamento = productoDB.GetDepartamento(@"productos.txt");
+            foreach (Producto p in producto_departamento)
                 {
-                    writer.Write("hello");
-                    writer.Write(5);
-                    writer.Close();
-                }
-            }*/
-            
-            
+                   Console.WriteLine(new Producto(p.descripcion));
+                   Console.WriteLine(new Producto(p.precio));
+                   Console.WriteLine(new Producto(p.codigo));
+                   Console.WriteLine(new Producto(p.departamento));
+                   Console.WriteLine(new Producto(p.likes));
+                }*/
+
         }
     }
 }
