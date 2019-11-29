@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Proyecto
 {
@@ -9,7 +10,7 @@ namespace Proyecto
         Decimal Precio = new Decimal();
         int departamento;
         int likes;
-        
+
     }
     class productoDB
     {

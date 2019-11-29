@@ -57,6 +57,9 @@
     12. Alumnos
 [Tarea alumnos](Alumnos)
 
+    13. ICompara
+[Trabajo ICompara](Icompara)
+
     13. Ilustrador
 [Tarea Ilustrador](Ilustrador)
 
