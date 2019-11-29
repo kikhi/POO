@@ -23,7 +23,7 @@ namespace Proyecto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<Producto> productos = new List<Producto>();
         }
     }
 }
