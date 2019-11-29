@@ -1,3 +1,11 @@
 C:\Users\Familiar\Desktop\POO\Proyecto\obj\Debug\netcoreapp3.0\Proyecto.csprojAssemblyReference.cache
 C:\Users\Familiar\Desktop\POO\Proyecto\obj\Debug\netcoreapp3.0\Proyecto.AssemblyInfoInputs.cache
 C:\Users\Familiar\Desktop\POO\Proyecto\obj\Debug\netcoreapp3.0\Proyecto.AssemblyInfo.cs
+C:\Users\Familiar\Desktop\POO\Proyecto\bin\Debug\netcoreapp3.0\Proyecto.exe
+C:\Users\Familiar\Desktop\POO\Proyecto\bin\Debug\netcoreapp3.0\Proyecto.deps.json
+C:\Users\Familiar\Desktop\POO\Proyecto\bin\Debug\netcoreapp3.0\Proyecto.runtimeconfig.json
+C:\Users\Familiar\Desktop\POO\Proyecto\bin\Debug\netcoreapp3.0\Proyecto.runtimeconfig.dev.json
+C:\Users\Familiar\Desktop\POO\Proyecto\bin\Debug\netcoreapp3.0\Proyecto.dll
+C:\Users\Familiar\Desktop\POO\Proyecto\bin\Debug\netcoreapp3.0\Proyecto.pdb
+C:\Users\Familiar\Desktop\POO\Proyecto\obj\Debug\netcoreapp3.0\Proyecto.dll
+C:\Users\Familiar\Desktop\POO\Proyecto\obj\Debug\netcoreapp3.0\Proyecto.pdb
