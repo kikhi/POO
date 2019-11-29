@@ -60,10 +60,13 @@
     13. ICompara
 [Trabajo ICompara](Icompara)
 
-    13. Ilustrador
+    14. Errores
+[Trabajo errores](Errores)
+
+    14. Ilustrador
 [Tarea Ilustrador](Ilustrador)
 
-    14. Stacks
+    15. Stacks
 [tarea Stacks](Stacks)
 
 
