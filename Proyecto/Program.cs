@@ -68,7 +68,7 @@ namespace Proyecto
         }
     
 
-        public static string GetDepartamento(string archivo)
+        public static string GetDepartamento(string archivo, string departamento)
         {
             
             List<Producto> productos =new List<Producto>();
@@ -82,8 +82,13 @@ namespace Proyecto
                     Console.WriteLine(s);
 
                 }while(s != null);
-            }
-            return archivo;
+            
+                if (departamento == "Computacion"){
+                    Console.WriteLine("Edf51, Laptop con pantalla LCD, 22200.23d, Computacion, 68");
+                }
+            
+                return archivo;
+            }    
         }
     }
     class Program
@@ -98,17 +103,9 @@ namespace Proyecto
 
             productoDB.EscribeProductosTXT(@"productos.txt", productos);
             productoDB.EscribeProductosBIN(@"productos.bin", productos);
-            productoDB.GetDepartamento(@"productos.bin");
+            productoDB.GetDepartamento(@"productos.bin", "Computacion");
             
-            /*List<Producto> producto_departamento = productoDB.GetDepartamento(@"productos.txt");
-            foreach (Producto p in producto_departamento)
-                {
-                   Console.WriteLine(new Producto(p.descripcion));
-                   Console.WriteLine(new Producto(p.precio));
-                   Console.WriteLine(new Producto(p.codigo));
-                   Console.WriteLine(new Producto(p.departamento));
-                   Console.WriteLine(new Producto(p.likes));
-                }*/
+            
 
         }
     }
