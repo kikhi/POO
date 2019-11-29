@@ -1,8 +1,6 @@
-Placa Arduino14.23A54saElectronica13
-Brazo metalico5.51Dsda6Mecanica54
-Laptop con pantalla LCD22200.23Edf51Computacion68
-Multimetro500.36Psda9Electricidad2
-500.36
-Psda9
-Electricidad
+Placa Arduino 14.23 A54sa Electronica 13
+Brazo metalico 5.51 Dsda6 Mecanica 54
+Laptop con pantalla LCD 22200.23 Edf51 Computacion 68
+Multimetro 500.36 Psda9 Electricidad 2
+lectricidad
 2
