@@ -11,6 +11,9 @@ namespace Proyecto
         int departamento;
         int likes;
 
+        public Producto(string c, string d, double p){
+            codigo = c; descripcion = d; precio = p;
+        }
     }
     class productoDB
     {
