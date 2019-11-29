@@ -7,6 +7,9 @@ namespace Proyecto
         public string codigo;
         public string description;
         Decimal Precio = new Decimal();
+        int departamento;
+        int likes;
+        
     }
     class productoDB
     {
