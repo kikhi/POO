@@ -34,10 +34,10 @@ namespace Proyecto
             StreamWriter txtOut = new StreamWriter(fs);
 
             foreach(Producto p in productos){
-                txtOut.WriteLine(p.descripcion);
-                txtOut.WriteLine(p.precio);
-                txtOut.WriteLine(p.codigo);
-                txtOut.WriteLine(p.departamento);
+                txtOut.Write(p.descripcion + "");
+                txtOut.Write(p.precio + "");
+                txtOut.Write(p.codigo + "");
+                txtOut.Write(p.departamento + "");
                 txtOut.WriteLine(p.likes);
             }
             txtOut.Close();
