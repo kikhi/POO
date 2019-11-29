@@ -30,7 +30,7 @@ namespace Proyecto
             productos.Add(new Producto("Edf51", "Laptop con pantalla LCD", 22200.23d, "Computacion", 68));
             productos.Add(new Producto("Psda9", "Multimetro", 500.36d, "Electricidad", 2));
 
-            FileStream fs = new FileStream(@"Product.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            FileStream fs = new FileStream(@"ProductTXT.txt", FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter txtOut = new StreamWriter(fs);
 
             foreach(Producto p in productos){
@@ -41,6 +41,18 @@ namespace Proyecto
                 txtOut.WriteLine(p.likes);
             }
             txtOut.Close();
+
+            using (FileStream stream = new FileStream(@"ProductBin.txt", FileMode.Create))
+            {
+                using (BinaryWriter writer = new BinaryWriter(stream))
+                {
+                    writer.Write("hello");
+                    writer.Write(5);
+                    writer.Close();
+                }
+            }
+            
+            Console.ReadLine();
         }
     }
 }
