@@ -36,32 +36,20 @@ namespace Proyecto
             txtOut.Close();
         }
 
-        /*public static List<Producto> LeeProductosTXT(string archivo)
+        public static void EscribeProductosBIN(string archivo, List<Producto> productos)
         {
-            List<Producto> productos =new List<Producto>();
-            FileStream fs=new FileStream(archivo,FileMode.Open,FileAccess.Read);
-
-            using (StreamReader sr = new StreamReader(archivo)) 
+            FileStream fs=new FileStream(archivo,FileMode.OpenOrCreate,FileAccess.Write);
+            BinaryWriter binOut=new BinaryWriter(fs);
+            foreach(Producto p in productos)
             {
-                string codigo;
-                string descripcion;
-                double precio;
-                string departamento;
-                int likes;
-                while ((line = sr.ReadLine()) != null) 
-                {
-                    Console.WriteLine(codigo);
-                    Console.WriteLine(descripcion);
-                    Console.WriteLine(precio);
-                    Console.WriteLine(departamento);
-                    Console.WriteLine(likes);
-                }
+                binOut.Write(p.descripcion + " ");
+                binOut.Write(p.precio + " ");
+                binOut.Write(p.codigo + " ");
+                binOut.Write(p.departamento + " ");
+                binOut.Write(p.likes);
             }
-        
-        }*/
-
-        
-
+            binOut.Close();
+        }
     }
     class Program
     {
@@ -73,7 +61,8 @@ namespace Proyecto
             productos.Add(new Producto("Edf51", "Laptop con pantalla LCD", 22200.23d, "Computacion", 68));
             productos.Add(new Producto("Psda9", "Multimetro", 500.36d, "Electricidad", 2));
 
-            productoDB.EscribeProductosTXT(@"productos.txt",productos);
+            productoDB.EscribeProductosTXT(@"productos.txt", productos);
+            productoDB.EscribeProductosBIN(@"productos.bin", productos);
 
             /*FileStream fs = new FileStream(@"ProductTXT.txt", FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter txtOut = new StreamWriter(fs);
@@ -87,7 +76,7 @@ namespace Proyecto
             }
             txtOut.Close();*/
 
-            using (FileStream stream = new FileStream(@"ProductBin.txt", FileMode.Create))
+            /*using (FileStream stream = new FileStream(@"ProductBin.txt", FileMode.Create))
             {
                 using (BinaryWriter writer = new BinaryWriter(stream))
                 {
@@ -95,7 +84,7 @@ namespace Proyecto
                     writer.Write(5);
                     writer.Close();
                 }
-            }
+            }*/
             
             
         }
