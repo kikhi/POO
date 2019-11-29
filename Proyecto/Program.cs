@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Generic.Colections;
 using System.IO;
 
 namespace Proyecto
@@ -7,7 +8,7 @@ namespace Proyecto
     {
         public string codigo;
         public string description;
-        Decimal Precio = new Decimal();
+        double Precio;
         int departamento;
         int likes;
 
@@ -24,8 +25,19 @@ namespace Proyecto
         static void Main(string[] args)
         {
             List<Producto> productos = new List<Producto>();
+            productos.Add(new Producto("A54sa", "Placa Arduino", 14.23));
+            productos.Add(new Producto("Dsda6", "Led Verde", 5.51));
+            productos.Add(new Producto("Edf51", "Laptop con pantalla LCD", 22200.23d));
+            productos.Add(new Producto("Psda9", "Multimetro", 500.36));
 
-            FileStream fs = new FileStream();
+            FileStream fs = new FileStream(@"Product.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            StreamWriter txtOut = new StreamWriter(fs);
+
+            foreach(Producto p in productos){
+                txtOut.Write(p.descripcion + "");
+                txtOut.WriteLine(p.precio);
+            }
+            txtOut.Close();
         }
     }
 }
