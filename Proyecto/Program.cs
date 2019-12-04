@@ -41,7 +41,7 @@ namespace Proyecto
             txtOut.Close();
         }
         //Leer producto
-        /*public static List<Producto> LeeProductosTXT(string archivo)
+        public static List<Producto> LeeProductosTXT(string archivo)
         {
         List<Producto> productos = new List<Producto>();        
         using( StreamReader txtOut = new StreamReader(archivo))
@@ -57,7 +57,7 @@ namespace Proyecto
 
         }
         return productos;
-        }*/
+        }
         
     }
     class Program
