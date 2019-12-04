@@ -7,7 +7,7 @@ namespace Proyecto
 {
     class Producto
     {
-        public string codigo;
+        public string codigo{set; get;}
         public string descripcion;
         public double precio;
         public string departamento;
@@ -43,18 +43,21 @@ namespace Proyecto
         //Leer producto
         public static List<Producto> LeeProductosTXT(string archivo)
         {
-        List<Producto> productos = new List<Producto>();        
-        using( StreamReader txtOut = new StreamReader(archivo))
-        {
-            foreach(Producto pb in productos)
-            {
-                txtOut.Write(pb.Codigo);
-                txtOut.Write(pb.Descripcion);
-                txtOut.Write(pb.Precio);
-                txtOut.Write(pb.Departamento);
-                txtOut.Write(pb.Likes);
-            }
+        List<Producto> productos = new List<Producto>();     
+        FileStream fs = new FileStream(archivo , FileMode.Open, FileAccess.Read);   
 
+        using( StreamReader txtIn = new StreamReader(fs))
+        {
+            while( txtIn.Read() != -1 )
+            {
+                Producto producto = new Producto();
+                producto.codigo = txtIn.ReadLine();
+                producto.descripcion = txtIn.ReadLine();
+                producto.precio = txtIn.Read();
+                producto.departamento = txtIn.ReadLine();
+                producto.likes = txtIn.Read();
+                productos.Add(producto);
+            }
         }
         return productos;
         }
@@ -71,7 +74,20 @@ namespace Proyecto
             productos.Add(new Producto("Psda9", "Multimetro", 500.36d, "Electricidad", 2));
 
             productoDB.EscribeProductosTXT(@"productos.txt", productos);
-                       
+            //productoDB.LeeProductosTXT(@"productos.txt");
+
+            List<Producto> productos_leidos = productoDB.LeeProductosTXT("productos.txt");
+
+                foreach(Producto p in productos_leidos)
+                {    
+                    Console.WriteLine(p.codigo);
+                    Console.WriteLine(p.descripcion);
+                    Console.WriteLine(p.precio);
+                    Console.WriteLine(p.departamento);
+                    Console.WriteLine(p.likes);
+                }
+
+
 
         }
     }
