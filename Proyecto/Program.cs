@@ -23,73 +23,42 @@ namespace Proyecto
     }
     class productoDB
     {
-        
-        public static void EscribeProductosTXT(string archivo,List<Producto> productos)
+        //Escribir producto
+        public static void EscribeProductosTXT(string archivo, List<Producto> productos)
         {
-            FileStream fs = new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
+
+            FileStream fs = new FileStream(archivo , FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter txtOut = new StreamWriter(fs);
 
-            foreach(Producto p in productos){
-                txtOut.Write(p.descripcion + " ");
-                txtOut.Write(p.precio + " ");
-                txtOut.Write(p.codigo + " ");
-                txtOut.Write(p.departamento + " ");
+            foreach(Producto p in productos)
+            {
+                txtOut.WriteLine(p.descripcion);
+                txtOut.WriteLine(p.precio);
+                txtOut.WriteLine(p.codigo);
+                txtOut.WriteLine(p.departamento);
                 txtOut.WriteLine(p.likes);
             }
             txtOut.Close();
         }
-
-        public static void EscribeProductosBIN(string archivo, List<Producto> productos)
+        //Leer producto
+        /*public static List<Producto> LeeProductosTXT(string archivo)
         {
-            FileStream fs=new FileStream(archivo,FileMode.OpenOrCreate,FileAccess.Write);
-            BinaryWriter binOut = new BinaryWriter(fs);
-            foreach(Producto p in productos)
+        List<Producto> productos = new List<Producto>();        
+        using( StreamReader txtOut = new StreamReader(archivo))
+        {
+            foreach(Producto pb in productos)
             {
-                binOut.Write(p.descripcion + " ");
-                binOut.Write(p.precio + " ");
-                binOut.Write(p.codigo + " ");
-                binOut.Write(p.departamento + " ");
-                binOut.Write(p.likes);
+                txtOut.Write(pb.Codigo);
+                txtOut.Write(pb.Descripcion);
+                txtOut.Write(pb.Precio);
+                txtOut.Write(pb.Departamento);
+                txtOut.Write(pb.Likes);
             }
-            binOut.Close();
 
-            /*FileStream xd = new FileStream(archivo, FileMode.Open, FileAccess.Read);
-
-            using(StreamReader sd = new StreamReader(archivo))
-            {
-                string s;
-                do{
-                    s = sd.ReadLine();
-                    Console.WriteLine(s);
-
-                }while(s != null);
-            }*/
+        }
+        return productos;
+        }*/
         
-        }
-    
-
-        public static string GetDepartamento(string archivo, string departamento)
-        {
-            
-            List<Producto> productos =new List<Producto>();
-            FileStream fs = new FileStream(archivo,FileMode.Open,FileAccess.Read);
-
-            using(StreamReader sr = new StreamReader(archivo))
-            {
-                string s;
-                do{
-                    s = sr.ReadLine();
-                    Console.WriteLine(s);
-
-                }while(s != null);
-            
-                if (departamento == "Computacion"){
-                    Console.WriteLine("Edf51, Laptop con pantalla LCD, 22200.23d, Computacion, 68");
-                }
-            
-                return archivo;
-            }    
-        }
     }
     class Program
     {
@@ -102,10 +71,7 @@ namespace Proyecto
             productos.Add(new Producto("Psda9", "Multimetro", 500.36d, "Electricidad", 2));
 
             productoDB.EscribeProductosTXT(@"productos.txt", productos);
-            productoDB.EscribeProductosBIN(@"productos.bin", productos);
-            productoDB.GetDepartamento(@"productos.bin", "Computacion");
-            
-            
+                       
 
         }
     }
