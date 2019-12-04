@@ -23,7 +23,7 @@ namespace Proyecto
     }
     class productoDB
     {
-        //Escribir producto
+        //Escribir producto TXT
         public static void EscribeProductosTXT(string archivo, List<Producto> productos)
         {
 
@@ -40,7 +40,7 @@ namespace Proyecto
             }
             txtOut.Close();
         }
-        //Leer producto
+        //Leer producto TXT
         public static List<Producto> LeeProductosTXT(string archivo)
         {
         List<Producto> productos = new List<Producto>();     
@@ -61,6 +61,8 @@ namespace Proyecto
         }
         return productos;
         }
+
+        
         
     }
     class Program
@@ -76,6 +78,7 @@ namespace Proyecto
             productoDB.EscribeProductosTXT(@"productos.txt", productos);
             //productoDB.LeeProductosTXT(@"productos.txt");
 
+            //Imprecion de lectura TXT
             List<Producto> productos_leidos = productoDB.LeeProductosTXT("productos.txt");
 
                 foreach(Producto p in productos_leidos)
