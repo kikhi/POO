@@ -48,7 +48,7 @@ namespace Proyecto
 
         using( StreamReader txtIn = new StreamReader(fs))
         {
-            while( txtIn.Read() != -1 )
+            while( txtIn.Peek() != -1 )
             {
                 Producto producto = new Producto();
                 producto.codigo = txtIn.ReadLine();
@@ -61,8 +61,21 @@ namespace Proyecto
         }
         return productos;
         }
-
-        
+        //Escribir documento BIN
+        public static void EscribeProductosBIN(string archivo, List<Producto> productos)
+        {
+            FileStream fs= new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
+            BinaryWriter binOut = new BinaryWriter(fs);
+            foreach(Producto p in productos)
+            {
+                binOut.Write(p.descripcion);
+                binOut.Write(p.precio);
+                binOut.Write(p.codigo);
+                binOut.Write(p.departamento);
+                binOut.Write(p.likes);
+            }
+            binOut.Close();
+        }
         
     }
     class Program
@@ -78,7 +91,11 @@ namespace Proyecto
             productoDB.EscribeProductosTXT(@"productos.txt", productos);
             //productoDB.LeeProductosTXT(@"productos.txt");
 
-            //Imprecion de lectura TXT
+            productoDB.EscribeProductosBIN(@"productos.txt", productos);
+
+
+            //Lecturas de docs
+            //Imprime de lectura TXT
             List<Producto> productos_leidos = productoDB.LeeProductosTXT("productos.txt");
 
                 foreach(Producto p in productos_leidos)
