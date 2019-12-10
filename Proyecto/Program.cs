@@ -47,7 +47,8 @@ namespace Proyecto
 
         
         //Leer producto TXT
-        public void LeerProductosTXT(string archivo, List<Producto> productos){
+        public void LeerProductosTXT(string archivo, List<Producto> productos)
+        {
 			try
 			{			
 				FileStream fs1=new FileStream(archivo,FileMode.Open,FileAccess.Read);//crea
@@ -64,7 +65,31 @@ namespace Proyecto
                 Console.WriteLine(e.Message);
             }
         
-        
+        }
+
+
+        //Binary
+        public void EscribeProductosBIN(string archivo){
+			try
+			{
+				FileStream fs=new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
+				using(BinaryWriter binOut = new BinaryWriter(fs)){
+					foreach(Producto p in productos){
+						binOut.Write(p.codigo);
+						binOut.Write(p.descripcion);
+						binOut.Write(p.precio);
+						binOut.Write(p.departamento);
+						binOut.Write(p.likes);
+					}
+				}
+			}
+			catch( Exception e){
+                Console.WriteLine("Hubo un error");
+                Console.WriteLine(e.Message);
+            }
+
+
+
         
     }
     class Program
@@ -78,10 +103,12 @@ namespace Proyecto
             productos.Add(new Producto("Edf51", "Laptop con pantalla LCD", 22200.23d, "Computacion", 68));
             productos.Add(new Producto("Psda9", "Multimetro", 500.36d, "Electricidad", 2));
 
-            //Metodos de escritura
+            //Metodos de escritura TXT
             productoDB.EscribeProductosTXT("productos.txt", productos);
-            
             productoDB.EscribeProductosTXT("productos.txt", productos);
+
+            //Metdos escritura BIN
+            productoDB.EscribeProductosBIN("productos.bin", productos);
 
 
            
