@@ -23,37 +23,46 @@ namespace Proyecto
     }
     class productoDB
     {
-        List<Producto> productos = new List<Producto>();
+        
 
         //Escribir producto TXT
         public static void EscribeProductosTXT(string archivo, List<Producto> productos)
         {
+            try
+            {
             FileStream fs = new FileStream(archivo , FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter txtOut = new StreamWriter(fs);
 
             foreach(Producto p in productos)
             {
                 txtOut.WriteLine("{0} {1} {2} {3} {4}", p.descripcion, p.precio, p.codigo, p.departamento, p.likes);
+                Console.WriteLine("{0} {1} {2} {3} {4}", p.descripcion, p.precio, p.codigo, p.departamento, p.likes);
             }
             txtOut.Close();
+            }catch(Exception e){
+                Console.WriteLine("Hubo un error");
+                Console.WriteLine(e.Message);
+            }
         }
 
         
         //Leer producto TXT
-        public static List<Producto> LeeProductosTXT(string archivo, List<Producto> productos)
-        {
-            //List<Producto> productos = new List<Producto>();        
-            using( StreamReader sr = new StreamReader(archivo))
-            {
-                string line = "";
-                while( (line =  sr.ReadLine()) != null ) // No lleguemos al final del archivo
-                {
-                string[] columnas = line.Split('|');            
-                productos.Add( new Producto(columnas[0], columnas[1], Double.Parse(columnas[2]), columnas[3], int.Parse(columnas[4])) );
-                }
+        public void LeerProductosTXT(string archivo, List<Producto> productos){
+			try
+			{			
+				FileStream fs1=new FileStream(archivo,FileMode.Open,FileAccess.Read);//crea
+				using(StreamReader txtOut=new StreamReader(fs1)){//transcribe
+					string line;				
+					while((line = txtOut.ReadLine()) != null){//para que valla checando renglon x renglon
+						string[] columnas = line.Split("|");//para dividir el constructor
+						productos.Add(new Producto(columnas[0], columnas[1], double.Parse(columnas[2]), columnas[3], int.Parse(columnas[4])));
+					}
+				}
+			}
+			catch( Exception e){
+                Console.WriteLine("Hubo un error");
+                Console.WriteLine(e.Message);
             }
-        return productos;
-        }
         
         
         
@@ -62,8 +71,8 @@ namespace Proyecto
     {
         static void Main(string[] args)
         {
-            productoDB p = new productoDB();
             
+            List<Producto> productos = new List<Producto>();
             productos.Add(new Producto("A54sa", "Placa Arduino", 14.23d, "Electronica", 13));
             productos.Add(new Producto("Dsda6", "Brazo metalico", 5.51d, "Mecanica", 54));
             productos.Add(new Producto("Edf51", "Laptop con pantalla LCD", 22200.23d, "Computacion", 68));
@@ -72,14 +81,10 @@ namespace Proyecto
             //Metodos de escritura
             productoDB.EscribeProductosTXT("productos.txt", productos);
             
+            productoDB.EscribeProductosTXT("productos.txt", productos);
 
 
-            //Metodos de lectura
-            List<Producto> productos_leidos = productoDB.LeeProductosTXT("productos.txt", productos);
-                foreach(Producto p in productos_leidos)
-                {    
-                    Console.WriteLine("{0} {1} {2} {3} {4}", p.descripcion, p.precio, p.codigo, p.departamento, p.likes);
-                }
+           
         }
     }
 }
