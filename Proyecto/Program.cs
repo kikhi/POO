@@ -7,7 +7,7 @@ namespace Proyecto
 {
     class Producto
     {
-        public string codigo{set; get;}
+        public string codigo;
         public string descripcion;
         public double precio;
         public string departamento;
@@ -23,92 +23,63 @@ namespace Proyecto
     }
     class productoDB
     {
+        List<Producto> productos = new List<Producto>();
+
         //Escribir producto TXT
         public static void EscribeProductosTXT(string archivo, List<Producto> productos)
         {
-
             FileStream fs = new FileStream(archivo , FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter txtOut = new StreamWriter(fs);
 
             foreach(Producto p in productos)
             {
-                txtOut.WriteLine(p.descripcion);
-                txtOut.WriteLine(p.precio);
-                txtOut.WriteLine(p.codigo);
-                txtOut.WriteLine(p.departamento);
-                txtOut.WriteLine(p.likes);
+                txtOut.WriteLine("{0} {1} {2} {3} {4}", p.descripcion, p.precio, p.codigo, p.departamento, p.likes);
             }
             txtOut.Close();
         }
-        //Leer producto TXT
-        public static List<Producto> LeeProductosTXT(string archivo)
-        {
-        List<Producto> productos = new List<Producto>();     
-        FileStream fs = new FileStream(archivo , FileMode.Open, FileAccess.Read);   
 
-        using( StreamReader txtIn = new StreamReader(fs))
+        
+        //Leer producto TXT
+        public static List<Producto> LeeProductosTXT(string archivo, List<Producto> productos)
         {
-            while( txtIn.Peek() != -1 )
+            //List<Producto> productos = new List<Producto>();        
+            using( StreamReader sr = new StreamReader(archivo))
             {
-                Producto producto = new Producto();
-                producto.codigo = txtIn.ReadLine();
-                producto.descripcion = txtIn.ReadLine();
-                producto.precio = txtIn.Read();
-                producto.departamento = txtIn.ReadLine();
-                producto.likes = txtIn.Read();
-                productos.Add(producto);
+                string line = "";
+                while( (line =  sr.ReadLine()) != null ) // No lleguemos al final del archivo
+                {
+                string[] columnas = line.Split('|');            
+                productos.Add( new Producto(columnas[0], columnas[1], Double.Parse(columnas[2]), columnas[3], int.Parse(columnas[4])) );
+                }
             }
-        }
         return productos;
         }
-        //Escribir documento BIN
-        public static void EscribeProductosBIN(string archivo, List<Producto> productos)
-        {
-            FileStream fs= new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
-            BinaryWriter binOut = new BinaryWriter(fs);
-            foreach(Producto p in productos)
-            {
-                binOut.Write(p.descripcion);
-                binOut.Write(p.precio);
-                binOut.Write(p.codigo);
-                binOut.Write(p.departamento);
-                binOut.Write(p.likes);
-            }
-            binOut.Close();
-        }
+        
+        
         
     }
     class Program
     {
         static void Main(string[] args)
         {
-            List<Producto> productos = new List<Producto>();
+            productoDB p = new productoDB();
+            
             productos.Add(new Producto("A54sa", "Placa Arduino", 14.23d, "Electronica", 13));
             productos.Add(new Producto("Dsda6", "Brazo metalico", 5.51d, "Mecanica", 54));
             productos.Add(new Producto("Edf51", "Laptop con pantalla LCD", 22200.23d, "Computacion", 68));
             productos.Add(new Producto("Psda9", "Multimetro", 500.36d, "Electricidad", 2));
 
-            productoDB.EscribeProductosTXT(@"productos.txt", productos);
-            //productoDB.LeeProductosTXT(@"productos.txt");
+            //Metodos de escritura
+            productoDB.EscribeProductosTXT("productos.txt", productos);
+            
 
-            productoDB.EscribeProductosBIN(@"productos.txt", productos);
 
-
-            //Lecturas de docs
-            //Imprime de lectura TXT
-            List<Producto> productos_leidos = productoDB.LeeProductosTXT("productos.txt");
-
+            //Metodos de lectura
+            List<Producto> productos_leidos = productoDB.LeeProductosTXT("productos.txt", productos);
                 foreach(Producto p in productos_leidos)
                 {    
-                    Console.WriteLine(p.codigo);
-                    Console.WriteLine(p.descripcion);
-                    Console.WriteLine(p.precio);
-                    Console.WriteLine(p.departamento);
-                    Console.WriteLine(p.likes);
+                    Console.WriteLine("{0} {1} {2} {3} {4}", p.descripcion, p.precio, p.codigo, p.departamento, p.likes);
                 }
-
-
-
         }
     }
 }
