@@ -5,7 +5,7 @@
 
 <h3 align="center"> Programacion orientada a objetos </h3>
 
-<h3 align-"center"> Ingenieria en sistemas computacionales </h3>
+<h3 align="center"> Ingenieria en sistemas computacionales </h3>
 <p align="center"> <img src="https://github.com/kikhi/POO/blob/master/Imagenes/INGsistemas.png?raw=true" alt="Ing Sistemas" width="100%" height="100%"> <p align="center"> 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
