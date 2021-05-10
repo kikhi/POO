@@ -7,7 +7,7 @@
 
 <h3 align="center"> Ingenieria en sistemas computacionales </h3>
 
-<p href="https://github.com/mariosky" align="center">Docente: Mario Garcia Valdez<p>
+<p align="center"> <a href="https://github.com/mariosky" > Docente: Mario Garcia Valdez </a> <p>
 
 <p align="center"> <img src="https://github.com/kikhi/POO/blob/master/Imagenes/INGsistemas.png?raw=true" alt="Ing Sistemas" width="100%" height="100%"> <p align="center"> 
 
