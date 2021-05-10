@@ -1,6 +1,5 @@
 # Instituto Tecnologico de Tijuana
-![ITT logo](https://github.com/kikhi/POO/blob/master/Imagenes/ITTlogo.jpg?raw=true)
-<img src="https://github.com/kikhi/POO/blob/master/Imagenes/ITTlogo.jpg?raw=true" alt="ITT logo" width="20%" height="20%">
+<img src="https://github.com/kikhi/POO/blob/master/Imagenes/ITTlogo.jpg?raw=true" alt="ITT logo" width="30%" height="30%">
 
 ### Cesar Andres Trujillo Garay
 
