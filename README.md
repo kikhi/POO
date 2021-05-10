@@ -1,11 +1,12 @@
 # Instituto Tecnologico de Tijuana
-<img src="https://github.com/kikhi/POO/blob/master/Imagenes/ITTlogo.jpg?raw=true" alt="ITT logo" width="30%" height="30%">
+<img src="https://github.com/kikhi/POO/blob/master/Imagenes/ITTlogo.jpg?raw=true" alt="ITT logo" width="30%" height="30%" style="vertical-align:middle;>
 
 ### Cesar Andres Trujillo Garay
 
 ### Programacion orientada a objetos
 
 ### Ingenieria en sistemas computacionales
+<img src="https://github.com/kikhi/POO/blob/master/Imagenes/INGsistemas.png?raw=true" alt="ITT logo" width="100%" height="100%" style="vertical-align:middle;>
 ![Ingenieria en sistemas](https://github.com/kikhi/POO/blob/master/Imagenes/INGsistemas.png?raw=true)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
